@@ -1,5 +1,5 @@
 [build]
-  command = "apt update && apt install wget -y"
+  command = "ls"
   publish = ".next"
 
 [[plugins]]
