@@ -1,5 +1,5 @@
 [build]
-  command = "ls"
+  command = "python a.py"
   publish = ".next"
 
 [[plugins]]
